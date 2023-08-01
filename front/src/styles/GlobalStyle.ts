@@ -2,15 +2,10 @@ import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
    :root {
-    --color-rad-900: #a10d0d;
-    --color-rad-800: #c01515;
     --color-rad-700: #d21919;
     --color-rad-600: #e51e1e;
     --color-rad-500: #f32121;
     --color-rad-400: #f54242;
-    --color-rad-300: #f66464;
-    --color-rad-200: #f99090;
-    --color-rad-100: #fbbbbb;
     --color-gray-900: #212121;
     --color-gray-800: #424242;
     --color-gray-700: #616161;
@@ -18,8 +13,6 @@ export default createGlobalStyle`
     --color-gray-500: #9e9e9e;
     --color-gray-400: #bdbdbd;
     --color-gray-300: #e0e0e0;
-    --color-gray-200: #eeeeee;
-    --color-gray-100: #f5f5f5;
 
     font-size: 60%;   
   }
