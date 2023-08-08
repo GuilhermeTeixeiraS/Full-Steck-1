@@ -1,7 +1,8 @@
 import { Router } from "express";
-import createTokenController from "../controllers/login.controller";
+import { createTokenController } from "../controllers/login.controllers";
 
-const loginRoutes = Router()
-loginRoutes.post("", createTokenController)
+const loginRouter = Router();
 
-export {loginRoutes}
+loginRouter.post("", createTokenController);
+
+export { loginRouter };

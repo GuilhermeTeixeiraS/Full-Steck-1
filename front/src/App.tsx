@@ -1,15 +1,14 @@
-import { AuthProvider } from "./providers/AuthProvider"
-import { RoutesMain } from "./routes"
-import GlobalStyle from "./styles/GlobalStyle"
+import { Router } from "./routes/routes";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
-export const App = ()=>{
-  return(
+function App() {
+  return (
     <>
-    <GlobalStyle/>
-    <AuthProvider>
-
-      <RoutesMain/>
-    </AuthProvider>
+      <ToastContainer />
+      <Router />
     </>
-  )
+  );
 }
+
+export default App;
