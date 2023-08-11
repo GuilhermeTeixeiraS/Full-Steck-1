@@ -22,7 +22,7 @@ contactsRoutes.post(
   ensureDataIsValid(contactSchemaRequest),
   createContactController
 );
-contactsRoutes.get("", /*authenticationMiddleware*/ listAllContactsController);
+contactsRoutes.get("", listAllContactsController);
 contactsRoutes.get(
   "/:id",
   authenticationMiddleware,
