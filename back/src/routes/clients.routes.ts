@@ -17,7 +17,7 @@ const clientsRoutes = Router();
 
 clientsRoutes.get(
   "/pdf",
-  /*authenticationMiddleware*/ listClientsPDFController
+ listClientsPDFController
 );
 clientsRoutes.get("", authenticationMiddleware, listAllClientsController);
 clientsRoutes.post(
@@ -28,19 +28,16 @@ clientsRoutes.post(
 
 clientsRoutes.patch(
   "/:id",
-  /*authenticationMiddleware*/
   verifyIdMiddleware,
   updateClientController
 );
 clientsRoutes.get(
   "/:id",
-  /*authenticationMiddleware*/
   verifyIdMiddleware,
   getClientByIdController
 );
 clientsRoutes.delete(
   "/:id",
-  /*authenticationMiddleware*/
   verifyIdMiddleware,
   deleteClientController
 );
