@@ -27,6 +27,7 @@ Inicie o servidor com npm run dev.
 - Deletar Client: DELETE /clients/id
 - Criar um PDF com a lista de todos os Clients: GET /clients/pdf
 
+
 - CONTACTS
   
 - Criar Contact: POST /contact
