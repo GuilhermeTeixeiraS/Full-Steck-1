@@ -1,4 +1,4 @@
-# Full-Steck-1 testes Tront com Back
+# Full-Steck-1 testes Front com Back
 
 INTRODUÇÃO AO APP
 
